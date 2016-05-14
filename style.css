@@ -1,0 +1,123 @@
+.header {   
+    margin-left: 5px; 
+    margin-right: 10px;    
+}
+
+#skyline-header {
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+}
+        
+.main-body {
+    background-color: aliceblue;
+    margin-left: 10px;
+    margin-right: 260px; 
+    position: relative;
+    top: 5px;    
+}
+
+.right-body {
+    background-color: aliceblue;
+    float: right;
+    top: 25px;
+    margin: 25px 10px 10px 5px; 
+    width: 240px;
+    box-shadow: 5px 5px 5px #888888; 
+}
+
+.right-body img {
+    width: 240px;
+}
+
+body {
+    font-family: cursive; 
+}
+
+#menuheader {
+    list-style-tpye: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightgrey; 
+    border-radius: 50px;
+}
+
+li {
+    float: left;
+    display: inline;
+}
+
+li a {
+    display: block; 
+    padding: 10px 16px;
+    text-decoration: none;
+    color:dimgrey;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: skyblue;
+}
+
+.header-body {
+    text-align: center; 
+}
+
+#body-text {
+    text-align:center;
+    text-decoration: none; 
+}
+
+div.img {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.footer {
+    clear: left; 
+    margin:  0px 5px 10px; 
+    position: relative;
+    width: 100%;
+    clear: both;
+}
+
+#footercontacts {
+    list-style-tpye: none; 
+    margin-top: 20px;
+    padding: 10px 0px 10px 10px;
+}
+
+#footercontacts a {
+    font-size: 10px;
+}
+
+#share-buttons img {
+width: 20px;
+padding:0px;
+border: 0;
+box-shadow: 0;
+display: inline;
+margin-left: -10px;
+}
+
+#facebutton { 
+    margin-top: -5px;   
+}
